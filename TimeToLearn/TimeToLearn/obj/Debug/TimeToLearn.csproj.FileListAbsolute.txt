@@ -1,0 +1,16 @@
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\bin\Debug\TimeToLearn.exe.config
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\bin\Debug\TimeToLearn.exe
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\bin\Debug\TimeToLearn.pdb
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn.csproj.AssemblyReference.cache
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn.csproj.SuggestedBindingRedirects.cache
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\MainWindow.g.cs
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\App.g.cs
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn_MarkupCompile.cache
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn_MarkupCompile.lref
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\MainWindow.baml
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn.g.resources
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn.Properties.Resources.resources
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn.csproj.GenerateResource.cache
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn.csproj.CoreCompileInputs.cache
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn.exe
+C:\Users\sam_b\source\repos21\TimeToLearn\TimeToLearn\obj\Debug\TimeToLearn.pdb

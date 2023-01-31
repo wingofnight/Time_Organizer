@@ -1,0 +1,25 @@
+﻿<Window x:Class="TimeToLearn.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:TimeToLearn"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <TextBox x:Name="txtbx_learnName" HorizontalAlignment="Left" Margin="36,283,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="308" Height="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="37,254,0,0" TextWrapping="Wrap" Text="Введите название урока" VerticalAlignment="Top" Height="23" Width="158"/>
+        <TextBlock HorizontalAlignment="Left" Margin="377,249,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="222" Text="Выберите важности от 1 до 10"/>
+        <TextBlock HorizontalAlignment="Left" Margin="37,254,0,0" TextWrapping="Wrap" Text="Введите название урока" VerticalAlignment="Top" Height="23" Width="158"/>
+        <ComboBox x:Name="cbx_raito" HorizontalAlignment="Left" Margin="378,286,0,0" VerticalAlignment="Top" Width="51" SelectionChanged="ComboBox_SelectionChanged"/>
+        <Button x:Name="btn_add" Content="Добавить" HorizontalAlignment="Left" Margin="615,278,0,0" VerticalAlignment="Top" Height="38" Width="70" Click="btn_add_Click"/>
+        <Button x:Name="btn_calculate" Content="Расчитать" HorizontalAlignment="Left" Margin="239,348,0,0" VerticalAlignment="Top" Height="56" Width="313" Click="btn_calculate_Click"/>
+        <ListBox x:Name="txtbl_info" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="35,44,115,199"/>
+        <TextBlock HorizontalAlignment="Left" Margin="273,4,0,0" TextWrapping="Wrap" Text="Расчитайте время занятий на неделю." VerticalAlignment="Top" Height="19" Width="237"/>
+        <TextBox x:Name="txtbx_alltime" HorizontalAlignment="Left" Margin="378,316,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="172" Height="25"/>
+        <TextBlock HorizontalAlignment="Left" Margin="39,315,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="23" Width="284"><Run Text="Введите"/><Run Language="ru-ru" Text=" колличество свободных часов в неделю"/></TextBlock>
+        <TextBlock x:Name="txtbl_wrong" HorizontalAlignment="Left" Margin="557,319,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="82" Width="233" Text="" Foreground="#FFC72626"/>
+        <TextBlock HorizontalAlignment="Left" Margin="36,25,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Height="19" Width="647"><Run Language="ru-ru" Text="Название                    "/><Run Text=" | "/><Run Language="ru-ru" Text="Стоимость "/><Run Text="| "/><Run Language="ru-ru" Text="Часов в неделю"/><Run Text=" | "/><Run Language="ru-ru" Text="Минут в день"/></TextBlock>
+
+    </Grid>
+</Window>
